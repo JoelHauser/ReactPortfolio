@@ -1,0 +1,19 @@
+$mainColor: #15023a;
+$backgroundColor: #264653;
+$accentColor: #2a9d8f;
+$cardColor: #e9c46a;
+$cardColorDark: #f4a261;
+
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
+
+// color: #264653
+// color: #2a9d8f
+// color: #e9c46a
+// color: #f4a261
