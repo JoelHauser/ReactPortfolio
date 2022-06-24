@@ -6,8 +6,10 @@
   flex-direction: column;
   align-items: center;
 
+
   h1 {
-    font-size: 50px;
+    font-size: 70px;
+    margin-top: 20px;
 
     @include mobile {
       font-size: 20px;
@@ -15,10 +17,11 @@
   }
 
   ul {
-    margin: 10px;
+    margin: 20px;
     padding: 0;
     list-style: none;
     display: flex;
+    align-items: center;
 
     @include mobile {
       flex-wrap: wrap;
@@ -28,10 +31,11 @@
   }
 
   .container {
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
 
     @include mobile {
@@ -39,11 +43,11 @@
     }
 
     .item {
-      width: 220px;
-      height: 150px;
+      width: 300px;
+      height: 380px;
       border-radius: 20px;
       border: 1px solid lightslategrey;
-      margin: 10px 20px;
+      margin: 100px 20px;
       display: flex;
       align-items: center;
       justify-content: center;

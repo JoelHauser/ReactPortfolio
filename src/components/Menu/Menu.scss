@@ -22,9 +22,10 @@
     padding: 0;
     list-style: none;
     font-size: 30px;
-    font-weight: 300;
-    color: white;
+    font-weight: 500;
+    color: $backgroundColor;
     width: 60%;
+    
 
     li {
       margin-bottom: 25px;
@@ -35,7 +36,8 @@
       }
 
       &:hover {
-        font-weight: 600;
+        font-weight: 700;
+        color: $accentColor;
       }
     }
   }

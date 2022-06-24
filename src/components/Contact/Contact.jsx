@@ -14,13 +14,13 @@ export default function Contact() {
         <img src="Assets/shake.svg" alt="" />
       </div>
       <div className="right">
-        <h2>Contact.</h2>
+        <h2>Reach Out!</h2>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
-          <a href="mailto: joel.hauser@gmail.com?subject=Mail">
+          {/* <a href="mailto: joel.hauser@gmail.com?subject=Mail"> */}
           <button type="submit">Send</button>
-          </a>
+          {/* </a> */}
           {message && <span>Thank you, I will be in touch soon!</span>}
         </form>
       </div>
