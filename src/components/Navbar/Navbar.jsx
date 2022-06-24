@@ -1,6 +1,5 @@
 import "./Navbar.scss";
 
-
 export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"navbar " + (menuOpen && "active")}>
@@ -11,11 +10,20 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             JS{" "}
           </a>
           <div className="itemcontainer">
+            {/* <div className="img">
+              <img src="Assets/icons8-person-30.png" alt="person" srcset="" />
+            </div> */}
             {/* <Person className="icon" /> */}
             <span>
-              <a href="2487739671" alt="phone">(248)773-9671</a></span>
+              <a href="2487739671" alt="phone">
+                (248)773-9671
+              </a>
+            </span>
           </div>
           <div className="itemcontainer">
+            {/* <div className="img">
+              <img src="Assets/icons8-mail-50.png" alt="mail" srcset="" />
+            </div> */}
             {/* <Mail className="icon" /> */}
             <span>Joel.Hauser@gmail.com</span>
           </div>

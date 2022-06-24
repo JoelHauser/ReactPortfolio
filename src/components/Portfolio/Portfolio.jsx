@@ -6,7 +6,6 @@ import {
   webPortfolio,
   mobilePortfolio,
   designPortfolio,
-  contentPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -17,6 +16,7 @@ export default function Portfolio() {
     {
       id: "featured",
       title: "Featured",
+      link: "Link"
     },
     {
       id: "web",
@@ -29,10 +29,6 @@ export default function Portfolio() {
     {
       id: "design",
       title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
     },
   ];
 
@@ -50,9 +46,6 @@ export default function Portfolio() {
       case "design":
         setData(designPortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
-        break;
       default:
         setData(featuredPortfolio);
     }
@@ -68,6 +61,7 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
+            link={item.id}
           />
         ))}
       </ul>
@@ -75,6 +69,7 @@ export default function Portfolio() {
         {data.map((d) => (
           <div className="item">
             <img src={d.img} alt="test" />
+            <a href={d.link} alt="test"> </a>
             <h3>{d.title}</h3>
           </div>
         ))}
