@@ -95,8 +95,8 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin: 0 152px;
-      font-size: 20px;
+      margin: 0 150px;
+      font-size: 15px;
       text-decoration: none;
       
 
@@ -105,7 +105,11 @@
         align-items: center;
         justify-self: space-between;
         text-decoration: none;
-        color: $cardColor;
+        color: black;
+        background-color: $cardColor;
+        padding: 10px;
+        border-radius: 15px;
+
 
       }
     }

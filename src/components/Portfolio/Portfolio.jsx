@@ -66,7 +66,7 @@ export default function Portfolio() {
           </div>
         ))}
         </div>
-        <div className="link">
+        <div className="link">\
           {data.map((d) => (
             <div className="item">
               <a href={d.link}>Visit</a>
