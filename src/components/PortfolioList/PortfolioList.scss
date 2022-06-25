@@ -3,8 +3,12 @@
 .portfoliolist {
   font-size: 14px;
   margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 7px;
   border-radius: 10px;
+  font-weight: 700;
   cursor: pointer;
 
   @include mobile {
@@ -12,7 +16,7 @@
   }
 
   &.active {
-    background-color: $mainColor;
+    background-color: $cardColor;
     color: white;
   }
 }
