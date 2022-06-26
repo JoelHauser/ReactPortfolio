@@ -10,6 +10,10 @@
   h1 {
     font-size: 70px;
     margin-top: 20px;
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @include mobile {
       font-size: 20px;
@@ -22,7 +26,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-
+    
     @include mobile {
       flex-wrap: wrap;
       justify-content: center;
@@ -70,13 +74,45 @@
         height: 100%;
         object-fit: cover;
         z-index: 1;
+        background-color: grey;
+        
       }
       &:hover {
         background-color: $mainColor;
+        
         img {
           opacity: 0.2;
           z-index: 0;
         }
+      }
+    }
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 150px;
+      font-size: 15px;
+      text-decoration: none;
+      
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-self: space-between;
+        text-decoration: none;
+        color: black;
+        background-color: $cardColor;
+        padding: 10px;
+        border-radius: 15px;
+
+
       }
     }
   }

@@ -10,10 +10,6 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             JS{" "}
           </a>
           <div className="itemcontainer">
-            {/* <div className="img">
-              <img src="Assets/icons8-person-30.png" alt="person" srcset="" />
-            </div> */}
-            {/* <Person className="icon" /> */}
             <span>
               <a href="2487739671" alt="phone">
                 (248)773-9671
@@ -21,11 +17,12 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             </span>
           </div>
           <div className="itemcontainer">
-            {/* <div className="img">
-              <img src="Assets/icons8-mail-50.png" alt="mail" srcset="" />
-            </div> */}
-            {/* <Mail className="icon" /> */}
             <span>Joel.Hauser@gmail.com</span>
+          </div>
+          <div className="itemcontainer">
+            <span>
+            <a href="Assets/Joel_Hauser_Resume2022.pdf" download="resume">Resume</a>
+            </span>
           </div>
         </div>
         <div className="right">

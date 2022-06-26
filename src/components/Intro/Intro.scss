@@ -29,7 +29,7 @@
       }
 
       img {
-        height: 90%;
+        height: 120%;
 
         @include mobile {
           height: 50%;
@@ -95,10 +95,11 @@
       position: absolute;
       bottom: 10px;
       left: 40%;
-
+      
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
+        
       }
       @keyframes arrowBlink {
         100% {

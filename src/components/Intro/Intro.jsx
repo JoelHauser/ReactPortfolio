@@ -12,7 +12,6 @@ export default function Intro() {
       backSpeed:60,
       strings: [
         "Full-Stack Web Developer",
-        "Designer",
         "Programmer",
         "Problem Solver",
       ],
