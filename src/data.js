@@ -29,19 +29,19 @@ export const webPortfolio = [
   {
     id: 1,
     title: "Forecaster",
-    img: "https://github.com/JoelHauser/Forecaster",
+    img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/Weather-PNG-Free-Download.png",
     link: "https://github.com/JoelHauser/Forecaster"
   },
   {
     id: 2,
     title: "Tech Blog",
-    img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+    img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/vecteezy_speech-bubble_1195588.png",
     link: "https://besttechblog.herokuapp.com/"
   },
   {
     id: 3,
     title: "Password Gen",
-    img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+    img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/lock-computer-icons-png-favpng-5UyRH8tFup9P4DdAsedMhUC8z.jpg",
     link: "https://github.com/JoelHauser/the-best-password-gen"
   }
   // {
