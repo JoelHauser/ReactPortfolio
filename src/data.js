@@ -2,7 +2,7 @@ export const featuredPortfolio = [
   {
     id: 1,
     title: "FoxY", 
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: "https://raw.githubusercontent.com/auscarter17/Foxy/main/assets/images/bigFox.png",
     link: "https://www.google.com"
   },
   {
