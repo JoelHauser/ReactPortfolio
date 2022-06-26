@@ -60,14 +60,14 @@ export const mobilePortfolio = [
   {
     id: 1,
     title: "Budget Tracker",
-    img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    link: "https://www.google.com"
+    img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/PngItem_52914.png",
+    link: "https://budgettrackerchal19.herokuapp.com/"
   },
   {
     id: 2,
     title: "Notes on Demand",
-    img: "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-    link: "https://www.google.com"
+    img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/pngegg.png",
+    link: "https://github.com/JoelHauser/Notes-on-demand"
   }
   // {
   //   id: 3,
