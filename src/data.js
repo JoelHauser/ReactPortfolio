@@ -41,7 +41,7 @@ export const webPortfolio = [
   {
     id: 3,
     title: "Password Gen",
-    img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/lock-computer-icons-png-favpng-5UyRH8tFup9P4DdAsedMhUC8z.jpg",
+    img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/pngwing.com.png",
     link: "https://github.com/JoelHauser/the-best-password-gen"
   }
   // {
