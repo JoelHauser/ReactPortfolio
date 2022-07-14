@@ -22,9 +22,9 @@ export default function Works() {
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Thought Boxer",
       desc: "Vote on what you think they should do.",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      img: "https://github.com/JoelHauser/runescapethree/blob/main/client/src/assets/images/Copy%20of%20Thought%20Boxer.png?raw=true",
     },
   ];
 
