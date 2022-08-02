@@ -7,7 +7,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className="left">
           <a href="#intro" className="logo">
             {" "}
-            JS{" "}
+            JH{" "}
           </a>
           <div className="itemcontainer">
             <span>
