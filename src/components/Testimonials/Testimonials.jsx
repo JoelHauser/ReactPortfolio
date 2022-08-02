@@ -4,11 +4,11 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Coming soon!",
-      title: "Senior Developer",
+      name: "Mason McGinley",
+      title: "QA Engineer at AdCellerant",
       img: "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image-300x225.png",
       icon: "assets/twitter.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      desc: "I was a TA of Joel’s through Michigan State University’s full stack coding bootcamp. Joel’s work ethic was beyond top tier. He consistently pushed further to understand topics and more so produce the best application possible. I would absolutely recommend Joel for any software role. You’ll be getting such an intelligent driven individual with a knack for coding ",
     },
     {
       id: 2,
