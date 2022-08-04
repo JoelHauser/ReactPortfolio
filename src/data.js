@@ -3,19 +3,19 @@ export const featuredPortfolio = [
     id: 1,
     title: "FoxY", 
     img: "https://raw.githubusercontent.com/JoelHauser/Foxy/main/assets/images/Minimal_Animal_Red_Fox_Logo.png",
-    link: "https://www.google.com"
+    link: "https://auscarter17.github.io/Foxy/"
   },
   {
     id: 2,
     title: "Fork that Orc",
     img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/New%20Project.png",
-    link: "https://www.google.com"
+    link: "https://fork-that-orc.herokuapp.com/"
   },
   {
     id: 3,
     title: "Readme Gen",
     img: "https://raw.githubusercontent.com/JoelHauser/ReactPortfolio/develop/public/Assets/NicePng_pen-and-paper-png_767861.png",
-    link: "https://www.google.com"
+    link: "https://github.com/JoelHauser/Yet-Another_Readme-Gen"
   },
   // {
   //   id: 4,
